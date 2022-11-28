@@ -46,7 +46,7 @@ Generate an image batch using the `model.text_to_image()` function.
 images = model.text_to_image('cat in space', batch_size=3)
 ```
 
-Declare a new fuction to plot the images in the notebook.
+Declare a new function to plot the images in the notebook.
 
 ```python
 def plot_images(images):
