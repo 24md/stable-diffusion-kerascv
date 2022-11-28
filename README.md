@@ -11,7 +11,7 @@ The following are the prerequisites and the steps to implement Stable Diffusion 
 Deploy a container using the `tensorflow/tensorflow:latest-gpu-jupyter` image.
 
 ```console
-# docker run -it -p 8888:8888 --gpus all --rm tensorflow/tensorflow:latest-gpu-jupyter
+# docker run -p 8888:8888 --gpus all -it --rm -v /root/notebooks:/tf/notebooks tensorflow/tensorflow:latest-gpu-jupyter
 ```
 
 Open the Jupyter Notebook interface on your web browser using the link provided in the output.
