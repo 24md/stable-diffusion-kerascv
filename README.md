@@ -8,7 +8,7 @@ The following are the prerequisites and the steps to implement Stable Diffusion 
 
 ## Set Up the Environment
 
-Deploy a container using the `tensorflow/tensorflow:latest-gpu-jupyter` image.
+Create a container using the `tensorflow/tensorflow:latest-gpu-jupyter` image.
 
 ```console
 # docker run -p 8888:8888 --gpus all -it --rm -v /root/notebooks:/tf/notebooks tensorflow/tensorflow:latest-gpu-jupyter
